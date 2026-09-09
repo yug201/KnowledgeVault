@@ -19,7 +19,7 @@ async def get_or_create_tag(
     if tag:
         return tag
 
-    tag = Tag(name=tag_name)
+    tag = Tag(name=tag_name) #  if tag  does not exist in tag  tabel we will simpley create it  and then return 
 
     db.add(tag)
 

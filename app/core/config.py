@@ -4,7 +4,7 @@ load_dotenv() # it will load .env
 DATABASE_URL = os.getenv("DATABASE_URL") #readd .env 
 # if not DATABASE_URL:
 #     raise RuntimeError(
-#         "DATABASE_URL is not configured"
+#         "DATABASE_URL is not configured-"
 #     )
 JWT_SECRET_KEY = os.getenv("JWT_SECRET_KEY")
 # We provide default values ("HS256" and "30") just in case they are missing in .env

@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 from datetime import datetime
 import os
-
+import os
 BASE_URL = os.getenv("BASE_URL", "http://localhost:8000")
 st.set_page_config(page_title="Vault Dashboard", layout="wide", page_icon="🛡️")
 
